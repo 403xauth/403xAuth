@@ -1,0 +1,13 @@
+# Игнорируем всё, кроме пакетов
+*
+
+# Но включаем пакеты
+!packages/
+packages/*
+!packages/*/
+packages/*/*
+!packages/*/package.json
+!packages/*/dist/
+!packages/*/README.md
+!packages/*/LICENSE
+

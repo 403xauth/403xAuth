@@ -1,0 +1,28 @@
+{
+  "name": "403xauth-sdk",
+  "version": "1.0.0",
+  "description": "SDK for 403xAuth - stateless Web3 authentication via Solana",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [
+    "solana",
+    "web3",
+    "authentication",
+    "stateless",
+    "403xauth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/403xauth/sdk.git"
+  }
+}
+
